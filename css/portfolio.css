@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 84%;
+}
+.navbar .logo{
+    width: 100px;
+    height: 100px;
+    margin:10px 50px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a{
+    text-decoration: none;
+    display: flex;
+    margin:10px 30px;
+    color:rgb(91, 81, 68);
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    color: red;
+}
